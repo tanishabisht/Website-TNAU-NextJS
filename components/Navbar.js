@@ -1,8 +1,13 @@
 import Image from 'next/image'
+import Link from 'next/link'
+import { useRouter } from "next/router";
 import logo from '../public/logo.gif'
 import styles from '../styles/Navbar.module.css'
 
 export default function Navbar() {
+
+    const router = useRouter()
+
     return (
         <section>
 
@@ -11,7 +16,7 @@ export default function Navbar() {
                     <div className={styles.Logo}>
                         <Image src={logo} alt="logo" height={100} width={100} />
                     </div>
-                    <h3 className={styles.Name}>Tamil Nadu Agricultural University</h3>
+                    <h3 className={styles.Name}>Tamil Nadu Agricultural University - Botanical Garden</h3>
                 </span>
                 <span><a className={styles.Link} href="/index.html#footer">CONTACT US</a></span>
             </div>
@@ -22,19 +27,19 @@ export default function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item active"><a className="nav-link" href="/index.html">Home</a></li>
-                        <li className="nav-item"><a className="nav-link" href="/Pages/GenesisOfGarden.html">Genesis of the Garden</a></li>
+                        <li className={router.pathname == "/" ? "active nav-item" : "nav-item"}><Link href="/"><a className="nav-link">Home</a></Link></li>
+                        <li className={router.pathname == "/1_genesis" ? "active nav-item" : "nav-item"}><Link href="/1_genesis"><a className="nav-link">Genesis of the Garden</a></Link></li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Highlights</a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="/Pages/2_IconOfCoimbatore.html">Icon of Coimbatore</a>
-                                <a className="dropdown-item" href="/soon.html">Rare plants</a>
-                                <a className="dropdown-item" href="/Pages/4_PlantConservatory.html">Plant Conservatory</a>
-                                <a className="dropdown-item" href="/soon.html">Cacti & succulent house</a>
-                                <a className="dropdown-item" href="/soon.html">Island Park</a>
-                                <a className="dropdown-item" href="/soon.html">Bambusetum</a>
-                                <a className="dropdown-item" href="/soon.html">Palmatum</a>
-                                <a className="dropdown-item" href="/soon.html">Children’s Park</a>
+                                <Link href="/2_icon"><a className="dropdown-item">Icon of Coimbatore</a></Link>
+                                <Link href="/3_rare"><a className="dropdown-item">Rare plants</a></Link>
+                                <Link href="/4_plant"><a className="dropdown-item">Plant Conservatory</a></Link>
+                                <Link href="/5_cacti"><a className="dropdown-item">Cacti & succulent house</a></Link>
+                                <Link href="/6_island"><a className="dropdown-item">Island Park</a></Link>
+                                <Link href="/7_bambusetum"><a className="dropdown-item">Bambusetum</a></Link>
+                                <Link href="/8_palmatum"><a className="dropdown-item">Palmatum</a></Link>
+                                <Link href="/9_children"><a className="dropdown-item">Children’s Park</a></Link>
                             </div>
                         </li>
                         <li className="nav-item dropdown">

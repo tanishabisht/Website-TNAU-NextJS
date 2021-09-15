@@ -1,0 +1,136 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+
+
+/* HERO IMAGE */
+.HeroImgContainer {
+    margin: 0 5rem;
+}
+.HeroBorder {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HeroBorder::before {
+    position: absolute;
+    content:'';
+    top: -20px;
+    border: 1px solid #fff;
+    width: 103%;
+    height: 100%;
+}
+.HeroImg {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+} 
+
+
+
+/* WRITTEN CONTENT */
+.HeroContentContainer {
+    background-color: #000000aa;
+    color: #fff;
+    width: 50%;
+    padding: 4rem;
+    position: relative;
+    top: -100px;
+}
+.HeroContentContainer h1{
+    text-align: center;
+}
+.HeroContentContainer hr {
+    background-color: #d4b62f;
+}
+.HeroContentContainer p {
+    text-align: justify;
+}
+
+
+
+/* BODY IMAGES */
+.BodyImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.BodyImg {
+    height: 10rem;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.BodyImg1 {
+    height: 15rem;
+}
+.BodyImgBorder {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem 5rem 2rem;
+}
+.BodyImgBorder::before {
+    position: absolute;
+    content:'';
+    top: 10px;
+    border: 1px solid #fff;
+    width: 105%;
+    height: 100%;
+}
+
+
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 1300px) {
+    /* content */
+    .HeroContentContainer {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* img */
+    .HeroImgContainer {
+        margin: 0 2rem;
+    }
+    .HeroImg {
+        height: 25rem;
+    }
+    .HeroBorder::before {
+        width: 105%;
+        top: -15px;
+    }
+    /* content */
+    .HeroContentContainer {
+        padding: 2rem;
+    }
+    /* body imgs */
+    .BodyImgContainer {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 576px) {
+    /* img */
+    .HeroImg {
+        height: 20rem;
+    }
+    .HeroBorder::before {
+        width: 106%;
+        top: -10px;
+    }
+    /* content */
+    .HeroContentContainer h1 {
+        font-size: 2rem;
+    }
+    .HeroContentContainer p {
+        font-size: 0.8rem;
+    }
+}
