@@ -1,0 +1,39 @@
+.Header {
+    margin: 0;
+    padding: 0;
+    color: #d4b62f;
+    text-align: center;
+}
+
+
+.Details {
+    border: 1px #d4b62f solid;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+.Details p, .Details h5 {
+    padding: 0;
+    margin: 0;
+}
+.Details div {
+    margin: 0rem 5rem;
+    color: #d4b62f;
+}
+.Details div i {
+    margin-right: 10px;
+}
+
+
+.Link {
+    text-decoration: none;
+    color: #d4b62f;
+}
+.Link:hover{
+    color: #d4b62f;
+    text-decoration: none;
+}

@@ -1,0 +1,27 @@
+.Header {
+    color: #d4b62f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.Header_left {
+    display: flex;
+    align-items: center;
+}
+.Logo {
+    margin-right: 1rem;
+}
+.Name {
+    margin: 0;
+}
+
+.Link {
+    text-decoration: none;
+    color: #d4b62f;
+}
+.Link:hover{
+    color: #d4b62f;
+    text-decoration: none;
+}

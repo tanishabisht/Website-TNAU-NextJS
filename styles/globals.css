@@ -14,3 +14,74 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+
+
+
+/* ############ */
+/* ## NAVBAR ## */
+/* ############ */
+
+nav {
+  background-color: transparent;
+  border: 1px #d4b62f solid;
+  border-left: 0px;
+  border-right: 0px;
+  padding:  0px !important;
+  margin-bottom: 3rem;
+}
+
+/* Toggle Icon */
+.navbar-toggler {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  background-color: #010e15;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+.dropdown-item{
+  color: #fff;
+  font-weight: 300;
+}
+.dropdown-item:hover {
+  background-color: #0f2631;
+  color: #fff;
+}
+
+/* Menu Items */
+.nav-item {
+  padding: 0 1rem;
+}
+.nav-link {
+  color: #d4b62f !important;
+}
+.active a {
+  color: #fff !important;
+}
+
+
+
+
+
+/* ########## */
+/* ## HERO ## */
+/* ########## */
+
+.hero_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero_image img {
+  width: 80% !important;
+  min-width: 70% !important;
+}
