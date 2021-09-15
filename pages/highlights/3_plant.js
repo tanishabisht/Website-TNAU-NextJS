@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import HeroContent from '../components/HeroContent'
-import ImgDouble from '../components/ImgDouble'
+import HeroContent from '../../components/HeroContent'
+import ImgDouble from '../../components/ImgDouble'
 
 
 export default function plant() {

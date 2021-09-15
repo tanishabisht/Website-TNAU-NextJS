@@ -18,7 +18,7 @@ export default function Navbar() {
                     </div>
                     <h3 className={styles.Name}>Tamil Nadu Agricultural University | Botanical Garden</h3>
                 </span>
-                <span><a className={styles.Link} href="/index.html#footer">CONTACT US</a></span>
+                <span><Link href="/#footer"><a className={styles.Link}>CONTACT US</a></Link></span>
             </div>
 
             <nav className="navbar navbar-expand-lg navbar-dark">
@@ -32,14 +32,14 @@ export default function Navbar() {
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Highlights</a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <Link href="/2_icon"><a className="dropdown-item">Icon of Coimbatore</a></Link>
-                                <Link href="/3_rare"><a className="dropdown-item">Rare plants</a></Link>
-                                <Link href="/4_plant"><a className="dropdown-item">Plant Conservatory</a></Link>
-                                <Link href="/5_cacti"><a className="dropdown-item">Cacti & succulent house</a></Link>
-                                <Link href="/6_island"><a className="dropdown-item">Island Park</a></Link>
-                                <Link href="/7_bambusetum"><a className="dropdown-item">Bambusetum</a></Link>
-                                <Link href="/8_palmatum"><a className="dropdown-item">Palmatum</a></Link>
-                                <Link href="/9_children"><a className="dropdown-item">Children’s Park</a></Link>
+                                <Link href="/highlights/1_icon"><a className="dropdown-item">Icon of Coimbatore</a></Link>
+                                <Link href="/highlights/2_rare"><a className="dropdown-item">Rare plants</a></Link>
+                                <Link href="/highlights/3_plant"><a className="dropdown-item">Plant Conservatory</a></Link>
+                                <Link href="/highlights/4_cacti"><a className="dropdown-item">Cacti & succulent house</a></Link>
+                                <Link href="/404"><a className="dropdown-item">Island Park</a></Link>
+                                <Link href="/highlights/6_bambusetum"><a className="dropdown-item">Bambusetum</a></Link>
+                                <Link href="/404"><a className="dropdown-item">Palmatum</a></Link>
+                                <Link href="/highlights/8_children"><a className="dropdown-item">Children’s Park</a></Link>
                             </div>
                         </li>
                         <li className="nav-item dropdown">

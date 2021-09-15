@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import HeroContent from '../components/HeroContent'
+import HeroContent from '../../components/HeroContent'
 
 
 export default function children() {
