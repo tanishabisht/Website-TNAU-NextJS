@@ -16,7 +16,7 @@ export default function Navbar() {
                     <div className={styles.Logo}>
                         <Image src={logo} alt="logo" height={100} width={100} />
                     </div>
-                    <h3 className={styles.Name}>Tamil Nadu Agricultural University - Botanical Garden</h3>
+                    <h3 className={styles.Name}>Tamil Nadu Agricultural University | Botanical Garden</h3>
                 </span>
                 <span><a className={styles.Link} href="/index.html#footer">CONTACT US</a></span>
             </div>

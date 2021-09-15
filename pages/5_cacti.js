@@ -6,13 +6,13 @@ import ImgDouble from '../components/ImgDouble'
 export default function cacti() {
 
     const data = {
-        img_src: '/4_plant.jpg', 
+        img_src: '/5_cacti.jpg', 
         heading: 'Cacti & Succulent House', 
         content: 'A glasshouse house harbours a diverse collection of cacti and succulents.',
-        body_img_src1: '/4_plant1.jpg',
-        body_img_src2: '/4_plant2.jpg',
-        body_img_src3: '/4_plant1.jpg',
-        body_img_src4: '/4_plant2.jpg'
+        body_img_src1: '/5_cacti1.jpg',
+        body_img_src2: '/5_cacti2.jpg',
+        body_img_src3: '/5_cacti3.jpg',
+        body_img_src4: '/5_cacti4.jpg'
     }
 
     return (

@@ -5,6 +5,9 @@
     justify-content: space-between;
     margin: 1rem 0;
 }
+.Header > * {
+    margin: 0 10px;
+}
 
 .Header_left {
     display: flex;
@@ -24,4 +27,32 @@
 .Link:hover{
     color: #d4b62f;
     text-decoration: none;
+}
+
+
+
+
+
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 1300px) {
+    .Name {
+        font-size: 1.4rem;
+    }
+    .Header a {
+        font-size: 0.5rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .Name {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .Name {
+        font-size: 1rem;
+    }
+    .Link {
+        font-size: 0.9rem;
+    }
 }
