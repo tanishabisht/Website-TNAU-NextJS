@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Home</title>
       </Head>
-      <div class="hero_image">
+      <div className="hero_image">
         <Image src={main_img} />
       </div>
     </section>
