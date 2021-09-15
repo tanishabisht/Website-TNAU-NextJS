@@ -45,17 +45,17 @@ export default function Navbar() {
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plant Biodiversity</a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="/soon.html">Trees</a>
-                                <a className="dropdown-item" href="/soon.html">Shrubs</a>
-                                <a className="dropdown-item" href="/soon.html">Climbers & Creepers</a>
-                                <a className="dropdown-item" href="/soon.html">Flowering annuals</a>
-                                <a className="dropdown-item" href="/soon.html">Cacti & Succulents</a>
-                                <a className="dropdown-item" href="/soon.html">Adeniums</a>
-                                <a className="dropdown-item" href="/soon.html">Foliage plants</a>
-                                <a className="dropdown-item" href="/soon.html">Turf grasses</a>
-                                <a className="dropdown-item" href="/soon.html">Ornamental grasses</a>
-                                <a className="dropdown-item" href="/soon.html">Bulbous ornamentals</a>
-                                <a className="dropdown-item" href="/soon.html">Bamboos</a>
+                                <Link href="/404"><a className="dropdown-item">Trees</a></Link>
+                                <Link href="/404"><a className="dropdown-item">Shrubs</a></Link>
+                                <Link href="/404"><a className="dropdown-item">Climbers & Creepers</a></Link>
+                                <Link href="/404"><a className="dropdown-item">Flowering annuals</a></Link>
+                                <Link href="/404"><a className="dropdown-item">Cacti & Succulents</a></Link>
+                                <Link href="/404"><a className="dropdown-item">Adeniums</a></Link>
+                                <Link href="/404"><a className="dropdown-item">Foliage plants</a></Link>
+                                <Link href="/404"><a className="dropdown-item">Turf grasses</a></Link>
+                                <Link href="/404"><a className="dropdown-item">Ornamental grasses</a></Link>
+                                <Link href="/404"><a className="dropdown-item">Bulbous ornamentals</a></Link>
+                                <Link href="/404"><a className="dropdown-item">Bamboos</a></Link>
                             </div>
                         </li>
                         <li className="nav-item dropdown">
