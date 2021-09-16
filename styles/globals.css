@@ -70,6 +70,11 @@ nav {
   width: 80% !important;
   min-width: 70% !important;
 }
+.hero_video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
@@ -97,5 +102,10 @@ nav {
 @media only screen and (max-width: 990px) {
   .navbar-dark .navbar-nav .nav-link {
     font-size: 1rem;
+  }
+}
+@media only screen and (max-width:500px) {
+  .hero_video > * {
+    height: 200px !important;
   }
 }
