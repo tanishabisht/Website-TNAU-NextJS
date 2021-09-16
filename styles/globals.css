@@ -70,6 +70,28 @@ nav {
   width: 80% !important;
   min-width: 70% !important;
 }
+.hero_img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.hero_img {
+  height: 100vh;
+  width: 90%;
+  background-image: url(../public/hero_big.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+}
+
+
+
+
+/* ########### */
+/* ## VIDEO ## */
+/* ########### */
 .hero_video {
   display: flex;
   align-items: center;
