@@ -1,4 +1,2 @@
 # TNAU Botanical Garden
-Developers:
-- Tanisha
-- Sudhanshu
+Official website for Tamil Nadu Agriculture University using `nextJS`.
